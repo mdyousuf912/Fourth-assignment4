@@ -151,12 +151,21 @@ body{
  }
 
  @media (max-width: 768px){
+    .c1d, .cdesc, .cdescd, .compd, .companyd, .containercd, .containerd, .containerld, .containerpd, .ctagd, .faq, .ftid, .imagesd, .iosd, .lastd, .lastsubd, .ldescd, .logod, .ltagd, .macd, .maind, .phoned, .qsd, .qsdescd, .sdescd, .snipd, .stagd {
+        display: none;
+    }
+}
+
+ @media (max-width: 1024px){
      .c1d, .cdesc, .cdescd, .compd, .companyd, .containercd, .containerd, .containerld, .containerpd, .ctagd, .faq, .ftid, .imagesd, .iosd, .lastd, .lastsubd, .ldescd, .logod, .ltagd, .macd, .maind, .phoned, .qsd, .qsdescd, .sdescd, .snipd, .stagd {
          display: none;
      }
  }
 
  /* Desktop view */
+
+ 
+
  @media (min-width: 1200px){
      .cdesc, .comp, .company, .container, .containerc, .containerl, .containerp, .ctag, .fti, .images
  , .ios, .lastsub, .last,.ldesc, .logo, .ltag, .mac, .main, .phone, .qs, .qsdesc, .qsy, .sdesc, .snip, .stag{
