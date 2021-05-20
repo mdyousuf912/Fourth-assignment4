@@ -113,6 +113,14 @@ body{
       padding: 30px 0px 60px 0px;  
  }
 
+ .lastsub{
+
+     text-align: center;
+     padding-bottom: 40%;
+ }
+
+ 
+
  .last{
      height: 90vh;
      background-color: lightgray;
@@ -141,3 +149,184 @@ body{
      justify-content: space-between;
      padding-top: 20%;
  }
+
+ @media (max-width: 768px){
+     .c1d, .cdesc, .cdescd, .compd, .companyd, .containercd, .containerd, .containerld, .containerpd, .ctagd, .faq, .ftid, .imagesd, .iosd, .lastd, .lastsubd, .ldescd, .logod, .ltagd, .macd, .maind, .phoned, .qsd, .qsdescd, .sdescd, .snipd, .stagd {
+         display: none;
+     }
+ }
+
+ /* Desktop view */
+ @media (min-width: 1200px){
+     .cdesc, .comp, .company, .container, .containerc, .containerl, .containerp, .ctag, .fti, .images
+ , .ios, .lastsub, .last,.ldesc, .logo, .ltag, .mac, .main, .phone, .qs, .qsdesc, .qsy, .sdesc, .snip, .stag{
+     display: none;
+ }
+
+ .maind{
+    height: 90vh;
+    text-align: center; 
+}
+
+.containerd{
+    background-image: url('images/bg-header-desktop.png');
+    object-fit: cover;
+    width: 100%;
+    height: 30%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    text-align: center; 
+    margin-bottom: 20px;
+
+}
+
+.logod{
+    height: 35%;
+    object-fit: cover;
+}
+
+.ltagd{
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+
+.ldescd{
+    padding-bottom: 30px;
+    font-size: 1rem;
+    color: hsl(201, 11%, 66%);
+    line-height: 30px;
+
+}
+   
+.iosd, .macd{
+    width: 15%;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: .9rem;
+    
+}
+
+.iosd{
+    background-color: hsl(171, 66%, 44%);
+    
+}
+.macd{
+    background-color: hsl(233, 100%, 69%);
+}
+
+.snipd, .qsd, .qsdescd, .ctagd, .cdescd{
+
+    text-align: center;
+ }
+ .stagd, .qsd, .ctagd{
+ 
+     font-size: 1.6rem;
+     padding-bottom: 23px;
+     font-weight: 800;
+ }
+ .sdescd, .qsdescd, .cdescd{
+ 
+     font-size: 0.8rem;
+     color: hsl(201, 11%, 66%);
+     line-height: 25px;
+     padding-bottom: 20px;
+ }
+
+ .c1d{
+     display: flex;
+     justify-content: space-between;
+     margin: 70px 200px 70px 0px;
+ }
+
+ .containercd, .containerpd {
+
+    width: 50%;
+    height: 40%;
+   
+}
+.containerpd{
+    margin-left: auto;
+    margin-right: auto;
+}
+.compd, .phoned{
+    object-fit: cover;
+    width: 90%;
+    
+}
+
+.imagesd{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.imagesd img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+
+ }
+
+ .companyd{
+
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;  
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.companyd img{
+
+    height: 35px;
+    
+}
+
+.lastsubd{
+
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+
+.lastd{
+    height: 20vh;
+    background-color: lightgray;
+    display: flex;
+    padding: 0px 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.containerld img{
+    height: 55px;
+}
+
+.lastd p{
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.ftid{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ftid img{
+    height: 20px;
+}
+}
